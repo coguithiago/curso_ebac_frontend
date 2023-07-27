@@ -1,0 +1,49 @@
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Lumanosimo', cursive;
+tom do rosa: #FC69BA
+*/
+
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+section h4 {
+    font-family: 'Lumanosimo', cursive;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px 0;
+    background-color:#FC69BA;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
